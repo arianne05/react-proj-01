@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-main{
+    background-color: #ffff;
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+}
+
+.login-left{
+    border: 1px solid black;
+    width: 50vw;
+}
+
+.top-bar-leftLogin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.position-drp{
+    margin-right: 40px;
+    border: 1px solid rgb(192, 192, 192);
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.login-right{
+    background-color: rgb(17, 0, 255);
+    width: 50vw;
+}
